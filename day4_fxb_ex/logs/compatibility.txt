@@ -1,0 +1,9 @@
+Target: RedHatAI/Meta-Llama-3.1-8B-Instruct-FP8-dynamic  (LlamaForCausalLM)
+  format=naive-quantized head_dim=128 hidden_size=4096 intermediate_size=14336 max_position_embeddings=131072 num_attention_heads=32 num_hidden_layers=32 num_key_value_heads=8 quant_method=compressed-tensors rms_norm_eps=0.00001 rope_scaling={"factor":8.0,"high_freq_factor":4.0,"low_freq_factor":1.0,"original_max_position_embeddings":8192,"rope_type":"llama3"} vocab_size=128256
+
+Compatible cached FXB (1):
+    REPO ID                                            SIZE       FuriosaIR                        FXB FILE
+--  -------------------------------------------------  ---------  -------------------------------  ----------------------------------------------------
+✔   furiosa-ai/Meta-Llama-3.1-8B-Instruct-FP8-dynamic  331.5 MiB  0.11.0-dev (fc43f6a779) — stale  llama3-1-8b-fp8-fc43f6a779-c03e584974-2609100218.fxb
+
+Recommended: /home/std2/.cache/furiosa/llm/fxb/models--furiosa-ai--Meta-Llama-3.1-8B-Instruct-FP8-dynamic/snapshots/420d37d19a7769215f677f6b1bcfa54b9ad0474d/llama3-1-8b-fp8-fc43f6a779-c03e584974-2609100218.fxb

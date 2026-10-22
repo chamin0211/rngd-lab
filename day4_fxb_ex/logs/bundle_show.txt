@@ -1,0 +1,135 @@
+
+  ──────────────────────────────────────────────────────────────────────────
+  FXB Bundle — /home/std2/.cache/furiosa/llm/fxb/models--furiosa-ai--Meta-Llama-3.1-8B-Instruct-FP8-dynamic/snapshots/420d37d19a7769215f677f6b1bcfa54b9ad0474d/llama3-1-8b-fp8-fc43f6a779-c03e584974-2609100218.fxb
+  ──────────────────────────────────────────────────────────────────────────
+
+  ── General ──────────────────────────────────────────────────────────────
+    - format_version       2
+    - uuid                 0caaa4a7-fdf1-4130-bd37-065b62213f50
+    - created_at           2026-09-10T02:18:14.426438464+00:00
+    - furiosa_llm          2026.4.0-rc.0 (c03e58497)
+    - furiosa_compiler     0.11.0-dev (fc43f6a779)
+
+  ── Model ────────────────────────────────────────────────────────────────
+    - architecture         LlamaForCausalLM
+    - hub_repo_id          RedHatAI/Meta-Llama-3.1-8B-Instruct-FP8-dynamic
+    - hidden_size          4096
+    - intermediate_size    14336
+    - num_attention_heads  32
+    - vocab_size           128256
+    - num_key_value_heads  8
+    - head_dim             128
+    - num_hidden_layers    32
+    - max_position_embeddings 131072
+    - format               naive-quantized
+    - quant_method         compressed-tensors
+
+  ── Parallelism ──────────────────────────────────────────────────────────
+    - tensor_parallel_size 8
+    - pipeline_parallel_size 1
+
+  ── Kernels (134 entries, 5 kernels) ─────────────────────────────────────
+    - mtp                  not included
+    - last_tokenwise_with_lm_head
+    - full_attention
+    - mid_tokenwise
+    - random_sample
+    - first_tokenwise
+
+  ── Buckets (112) ────────────────────────────────────────────────────────
+    - tokenwise            [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
+    - sampler              [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
+    - prefill (4):
+        - batch=1    attn=128      input_ids=128
+        - batch=1    attn=256      input_ids=256
+        - batch=1    attn=512      input_ids=512
+        - batch=1    attn=1024     input_ids=1024
+    - decode (52):
+        - batch=1    attn=1024     input_ids=1
+        - batch=1    attn=2048     input_ids=1
+        - batch=1    attn=4096     input_ids=1
+        - batch=1    attn=8192     input_ids=1
+        - batch=1    attn=16384    input_ids=1
+        - batch=1    attn=32768    input_ids=1
+        - batch=1    attn=65536    input_ids=1
+        - batch=1    attn=131072   input_ids=1
+        - batch=2    attn=1024     input_ids=1
+        - batch=2    attn=2048     input_ids=1
+        - batch=2    attn=4096     input_ids=1
+        - batch=2    attn=8192     input_ids=1
+        - batch=2    attn=16384    input_ids=1
+        - batch=2    attn=32768    input_ids=1
+        - batch=2    attn=65536    input_ids=1
+        - batch=2    attn=131072   input_ids=1
+        - batch=4    attn=1024     input_ids=1
+        - batch=4    attn=2048     input_ids=1
+        - batch=4    attn=4096     input_ids=1
+        - batch=4    attn=8192     input_ids=1
+        - batch=4    attn=16384    input_ids=1
+        - batch=4    attn=32768    input_ids=1
+        - batch=4    attn=65536    input_ids=1
+        - batch=4    attn=131072   input_ids=1
+        - batch=8    attn=1024     input_ids=1
+        - batch=8    attn=2048     input_ids=1
+        - batch=8    attn=4096     input_ids=1
+        - batch=8    attn=8192     input_ids=1
+        - batch=8    attn=16384    input_ids=1
+        - batch=8    attn=32768    input_ids=1
+        - batch=8    attn=65536    input_ids=1
+        - batch=16   attn=1024     input_ids=1
+        - batch=16   attn=2048     input_ids=1
+        - batch=16   attn=4096     input_ids=1
+        - batch=16   attn=8192     input_ids=1
+        - batch=16   attn=16384    input_ids=1
+        - batch=16   attn=32768    input_ids=1
+        - batch=32   attn=1024     input_ids=1
+        - batch=32   attn=2048     input_ids=1
+        - batch=32   attn=4096     input_ids=1
+        - batch=32   attn=8192     input_ids=1
+        - batch=32   attn=16384    input_ids=1
+        - batch=64   attn=1024     input_ids=1
+        - batch=64   attn=2048     input_ids=1
+        - batch=64   attn=4096     input_ids=1
+        - batch=64   attn=8192     input_ids=1
+        - batch=128  attn=1024     input_ids=1
+        - batch=128  attn=2048     input_ids=1
+        - batch=128  attn=4096     input_ids=1
+        - batch=256  attn=1024     input_ids=1
+        - batch=256  attn=2048     input_ids=1
+        - batch=512  attn=1024     input_ids=1
+    - append (34):
+        - batch=1    attn=256      input_ids=128
+        - batch=1    attn=512      input_ids=128
+        - batch=1    attn=512      input_ids=256
+        - batch=1    attn=1024     input_ids=128
+        - batch=1    attn=1024     input_ids=256
+        - batch=1    attn=1024     input_ids=512
+        - batch=1    attn=2048     input_ids=128
+        - batch=1    attn=2048     input_ids=256
+        - batch=1    attn=2048     input_ids=512
+        - batch=1    attn=2048     input_ids=1024
+        - batch=1    attn=4096     input_ids=128
+        - batch=1    attn=4096     input_ids=256
+        - batch=1    attn=4096     input_ids=512
+        - batch=1    attn=4096     input_ids=1024
+        - batch=1    attn=8192     input_ids=128
+        - batch=1    attn=8192     input_ids=256
+        - batch=1    attn=8192     input_ids=512
+        - batch=1    attn=8192     input_ids=1024
+        - batch=1    attn=16384    input_ids=128
+        - batch=1    attn=16384    input_ids=256
+        - batch=1    attn=16384    input_ids=512
+        - batch=1    attn=16384    input_ids=1024
+        - batch=1    attn=32768    input_ids=128
+        - batch=1    attn=32768    input_ids=256
+        - batch=1    attn=32768    input_ids=512
+        - batch=1    attn=32768    input_ids=1024
+        - batch=1    attn=65536    input_ids=128
+        - batch=1    attn=65536    input_ids=256
+        - batch=1    attn=65536    input_ids=512
+        - batch=1    attn=65536    input_ids=1024
+        - batch=1    attn=131072   input_ids=128
+        - batch=1    attn=131072   input_ids=256
+        - batch=1    attn=131072   input_ids=512
+        - batch=1    attn=131072   input_ids=1024
+  ──────────────────────────────────────────────────────────────────────────

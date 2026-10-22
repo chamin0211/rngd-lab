@@ -1,0 +1,1813 @@
+first_tokenwise (tw1):
+  Inputs:
+    [0] size=1050673152  shape=[]|[0_1=128256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=4         shape=[]|[0_1=1:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [5] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [6] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [7] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [8] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [9] size=4         shape=[]|[0_1=1:1]  dtype=raw_i32
+    [10] size=4         shape=[]|[0_1=1:1, 1_1=1:1]  dtype=raw_i32
+    [11] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [12] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [13] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=8192      shape=[]|[0_1=1:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=8192      shape=[]|[0_1=1:4096, 1_1=4096:1]  dtype=bf16
+
+first_tokenwise (tw4):
+  Inputs:
+    [0] size=1050673152  shape=[]|[0_1=128256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=16        shape=[]|[0_1=4:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [5] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [6] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [7] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [8] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [9] size=16        shape=[]|[0_1=4:1]  dtype=raw_i32
+    [10] size=16        shape=[]|[0_1=1:4, 1_1=4:1]  dtype=raw_i32
+    [11] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [12] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [13] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+
+first_tokenwise (tw8):
+  Inputs:
+    [0] size=1050673152  shape=[]|[0_1=128256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=32        shape=[]|[0_1=8:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [5] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [6] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [7] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [8] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [9] size=32        shape=[]|[0_1=8:1]  dtype=raw_i32
+    [10] size=32        shape=[]|[0_1=1:8, 1_1=8:1]  dtype=raw_i32
+    [11] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [12] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [13] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+
+first_tokenwise (tw2):
+  Inputs:
+    [0] size=1050673152  shape=[]|[0_1=128256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=8         shape=[]|[0_1=2:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [5] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [6] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [7] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [8] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [9] size=8         shape=[]|[0_1=2:1]  dtype=raw_i32
+    [10] size=8         shape=[]|[0_1=1:2, 1_1=2:1]  dtype=raw_i32
+    [11] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [12] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [13] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+
+first_tokenwise (tw16):
+  Inputs:
+    [0] size=1050673152  shape=[]|[0_1=128256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=64        shape=[]|[0_1=16:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [5] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [6] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [7] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [8] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [9] size=64        shape=[]|[0_1=16:1]  dtype=raw_i32
+    [10] size=64        shape=[]|[0_1=1:16, 1_1=16:1]  dtype=raw_i32
+    [11] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [12] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [13] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=131072    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=131072    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=bf16
+
+first_tokenwise (tw32):
+  Inputs:
+    [0] size=1050673152  shape=[]|[0_1=128256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=128       shape=[]|[0_1=32:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [5] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [6] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [7] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [8] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [9] size=128       shape=[]|[0_1=32:1]  dtype=raw_i32
+    [10] size=128       shape=[]|[0_1=1:32, 1_1=32:1]  dtype=raw_i32
+    [11] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [12] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [13] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=262144    shape=[]|[0_1=32:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=262144    shape=[]|[0_1=32:4096, 1_1=4096:1]  dtype=bf16
+
+first_tokenwise (tw64):
+  Inputs:
+    [0] size=1050673152  shape=[]|[0_1=128256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=256       shape=[]|[0_1=64:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [5] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [6] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [7] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [8] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [9] size=256       shape=[]|[0_1=64:1]  dtype=raw_i32
+    [10] size=256       shape=[]|[0_1=1:64, 1_1=64:1]  dtype=raw_i32
+    [11] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [12] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [13] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=524288    shape=[]|[0_1=64:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=524288    shape=[]|[0_1=64:4096, 1_1=4096:1]  dtype=bf16
+
+first_tokenwise (tw128):
+  Inputs:
+    [0] size=1050673152  shape=[]|[0_1=128256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=512       shape=[]|[0_1=128:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [5] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [6] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [7] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [8] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [9] size=512       shape=[]|[0_1=128:1]  dtype=raw_i32
+    [10] size=512       shape=[]|[0_1=1:128, 1_1=128:1]  dtype=raw_i32
+    [11] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [12] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [13] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+
+first_tokenwise (tw256):
+  Inputs:
+    [0] size=1050673152  shape=[]|[0_1=128256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=1024      shape=[]|[0_1=256:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [5] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [6] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [7] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [8] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [9] size=1024      shape=[]|[0_1=256:1]  dtype=raw_i32
+    [10] size=1024      shape=[]|[0_1=1:256, 1_1=256:1]  dtype=raw_i32
+    [11] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [12] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [13] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+
+first_tokenwise (tw512):
+  Inputs:
+    [0] size=1050673152  shape=[]|[0_1=128256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=2048      shape=[]|[0_1=512:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [5] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [6] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [7] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [8] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [9] size=2048      shape=[]|[0_1=512:1]  dtype=raw_i32
+    [10] size=2048      shape=[]|[0_1=1:512, 1_1=512:1]  dtype=raw_i32
+    [11] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [12] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [13] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+
+first_tokenwise (tw1024):
+  Inputs:
+    [0] size=1050673152  shape=[]|[0_1=128256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=4096      shape=[]|[0_1=1024:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [5] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [6] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [7] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [8] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [9] size=4096      shape=[]|[0_1=1024:1]  dtype=raw_i32
+    [10] size=4096      shape=[]|[0_1=1:1024, 1_1=1024:1]  dtype=raw_i32
+    [11] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [12] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [13] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a128_kv0):
+  Inputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=512       shape=[]|[0_1=1:128, 1_1=128:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=16384     shape=[Broadcast=1]|[1_1=128:128, 2_1=128:1]  dtype=bool
+  Outputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a256_kv0):
+  Inputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=1024      shape=[]|[0_1=1:256, 1_1=256:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=65536     shape=[Broadcast=1]|[1_1=256:256, 2_1=256:1]  dtype=bool
+  Outputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a512_kv0):
+  Inputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=2048      shape=[]|[0_1=1:512, 1_1=512:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=262144    shape=[Broadcast=1]|[1_1=512:512, 2_1=512:1]  dtype=bool
+  Outputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a1024_kv0):
+  Inputs:
+    [0] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=4096      shape=[]|[0_1=1:1024, 1_1=1024:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=1048576   shape=[Broadcast=1]|[1_1=1024:1024, 2_1=1024:1]  dtype=bool
+  Outputs:
+    [0] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a1024_kv1023):
+  Inputs:
+    [0] size=8192      shape=[]|[1_1=4096:1]  dtype=bf16
+    [1] size=4096      shape=[]|[0_1=1:1024, 1_1=1024:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=1024      shape=[Broadcast=1]|[2_1=1024:1]  dtype=bool
+  Outputs:
+    [0] size=8192      shape=[]|[1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a2048_kv2047):
+  Inputs:
+    [0] size=8192      shape=[]|[1_1=4096:1]  dtype=bf16
+    [1] size=8192      shape=[]|[0_1=1:2048, 1_1=2048:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=2048      shape=[Broadcast=1]|[2_1=2048:1]  dtype=bool
+  Outputs:
+    [0] size=8192      shape=[]|[1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a4096_kv4095):
+  Inputs:
+    [0] size=8192      shape=[]|[1_1=4096:1]  dtype=bf16
+    [1] size=16384     shape=[]|[0_1=1:4096, 1_1=4096:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=4096      shape=[Broadcast=1]|[2_1=4096:1]  dtype=bool
+  Outputs:
+    [0] size=8192      shape=[]|[1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a8192_kv8191):
+  Inputs:
+    [0] size=8192      shape=[]|[1_1=4096:1]  dtype=bf16
+    [1] size=32768     shape=[]|[0_1=1:8192, 1_1=8192:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=8192      shape=[Broadcast=1]|[2_1=8192:1]  dtype=bool
+  Outputs:
+    [0] size=8192      shape=[]|[1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a16384_kv16383):
+  Inputs:
+    [0] size=8192      shape=[]|[1_1=4096:1]  dtype=bf16
+    [1] size=65536     shape=[]|[0_1=1:16384, 1_1=16384:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=16384     shape=[Broadcast=1]|[2_1=16384:1]  dtype=bool
+  Outputs:
+    [0] size=8192      shape=[]|[1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a32768_kv32767):
+  Inputs:
+    [0] size=8192      shape=[]|[1_1=4096:1]  dtype=bf16
+    [1] size=131072    shape=[]|[0_1=1:32768, 1_1=32768:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=32768     shape=[Broadcast=1]|[2_1=32768:1]  dtype=bool
+  Outputs:
+    [0] size=8192      shape=[]|[1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a65536_kv65535):
+  Inputs:
+    [0] size=8192      shape=[]|[1_1=4096:1]  dtype=bf16
+    [1] size=262144    shape=[]|[0_1=1:65536, 1_1=65536:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=65536     shape=[Broadcast=1]|[2_1=65536:1]  dtype=bool
+  Outputs:
+    [0] size=8192      shape=[]|[1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a131072_kv131071):
+  Inputs:
+    [0] size=8192      shape=[]|[1_1=4096:1]  dtype=bf16
+    [1] size=524288    shape=[]|[0_1=1:131072, 1_1=131072:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=131072    shape=[Broadcast=1]|[2_1=131072:1]  dtype=bool
+  Outputs:
+    [0] size=8192      shape=[]|[1_1=4096:1]  dtype=bf16
+
+full_attention (b2_a1024_kv1023):
+  Inputs:
+    [0] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=8192      shape=[]|[0_1=2:1024, 1_1=1024:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=2048      shape=[Broadcast=1]|[0_1=2:1024, 2_1=1024:1]  dtype=bool
+  Outputs:
+    [0] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b2_a2048_kv2047):
+  Inputs:
+    [0] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=16384     shape=[]|[0_1=2:2048, 1_1=2048:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=4096      shape=[Broadcast=1]|[0_1=2:2048, 2_1=2048:1]  dtype=bool
+  Outputs:
+    [0] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b2_a4096_kv4095):
+  Inputs:
+    [0] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=32768     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=8192      shape=[Broadcast=1]|[0_1=2:4096, 2_1=4096:1]  dtype=bool
+  Outputs:
+    [0] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b2_a8192_kv8191):
+  Inputs:
+    [0] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=65536     shape=[]|[0_1=2:8192, 1_1=8192:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=16384     shape=[Broadcast=1]|[0_1=2:8192, 2_1=8192:1]  dtype=bool
+  Outputs:
+    [0] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b2_a16384_kv16383):
+  Inputs:
+    [0] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=131072    shape=[]|[0_1=2:16384, 1_1=16384:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=32768     shape=[Broadcast=1]|[0_1=2:16384, 2_1=16384:1]  dtype=bool
+  Outputs:
+    [0] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b2_a32768_kv32767):
+  Inputs:
+    [0] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=262144    shape=[]|[0_1=2:32768, 1_1=32768:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=65536     shape=[Broadcast=1]|[0_1=2:32768, 2_1=32768:1]  dtype=bool
+  Outputs:
+    [0] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b2_a65536_kv65535):
+  Inputs:
+    [0] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=524288    shape=[]|[0_1=2:65536, 1_1=65536:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=131072    shape=[Broadcast=1]|[0_1=2:65536, 2_1=65536:1]  dtype=bool
+  Outputs:
+    [0] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b2_a131072_kv131071):
+  Inputs:
+    [0] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=1048576   shape=[]|[0_1=2:131072, 1_1=131072:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=262144    shape=[Broadcast=1]|[0_1=2:131072, 2_1=131072:1]  dtype=bool
+  Outputs:
+    [0] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b4_a1024_kv1023):
+  Inputs:
+    [0] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=16384     shape=[]|[0_1=4:1024, 1_1=1024:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=4096      shape=[Broadcast=1]|[0_1=4:1024, 2_1=1024:1]  dtype=bool
+  Outputs:
+    [0] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b4_a2048_kv2047):
+  Inputs:
+    [0] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=32768     shape=[]|[0_1=4:2048, 1_1=2048:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=8192      shape=[Broadcast=1]|[0_1=4:2048, 2_1=2048:1]  dtype=bool
+  Outputs:
+    [0] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b4_a4096_kv4095):
+  Inputs:
+    [0] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=65536     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=16384     shape=[Broadcast=1]|[0_1=4:4096, 2_1=4096:1]  dtype=bool
+  Outputs:
+    [0] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b4_a8192_kv8191):
+  Inputs:
+    [0] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=131072    shape=[]|[0_1=4:8192, 1_1=8192:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=32768     shape=[Broadcast=1]|[0_1=4:8192, 2_1=8192:1]  dtype=bool
+  Outputs:
+    [0] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b4_a16384_kv16383):
+  Inputs:
+    [0] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=262144    shape=[]|[0_1=4:16384, 1_1=16384:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=65536     shape=[Broadcast=1]|[0_1=4:16384, 2_1=16384:1]  dtype=bool
+  Outputs:
+    [0] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b4_a32768_kv32767):
+  Inputs:
+    [0] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=524288    shape=[]|[0_1=4:32768, 1_1=32768:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=131072    shape=[Broadcast=1]|[0_1=4:32768, 2_1=32768:1]  dtype=bool
+  Outputs:
+    [0] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b4_a65536_kv65535):
+  Inputs:
+    [0] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=1048576   shape=[]|[0_1=4:65536, 1_1=65536:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=262144    shape=[Broadcast=1]|[0_1=4:65536, 2_1=65536:1]  dtype=bool
+  Outputs:
+    [0] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b4_a131072_kv131071):
+  Inputs:
+    [0] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=2097152   shape=[]|[0_1=4:131072, 1_1=131072:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=524288    shape=[Broadcast=1]|[0_1=4:131072, 2_1=131072:1]  dtype=bool
+  Outputs:
+    [0] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b8_a1024_kv1023):
+  Inputs:
+    [0] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=32768     shape=[]|[0_1=8:1024, 1_1=1024:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=8192      shape=[Broadcast=1]|[0_1=8:1024, 2_1=1024:1]  dtype=bool
+  Outputs:
+    [0] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b8_a2048_kv2047):
+  Inputs:
+    [0] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=65536     shape=[]|[0_1=8:2048, 1_1=2048:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=16384     shape=[Broadcast=1]|[0_1=8:2048, 2_1=2048:1]  dtype=bool
+  Outputs:
+    [0] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b8_a4096_kv4095):
+  Inputs:
+    [0] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=131072    shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=32768     shape=[Broadcast=1]|[0_1=8:4096, 2_1=4096:1]  dtype=bool
+  Outputs:
+    [0] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b8_a8192_kv8191):
+  Inputs:
+    [0] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=262144    shape=[]|[0_1=8:8192, 1_1=8192:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=65536     shape=[Broadcast=1]|[0_1=8:8192, 2_1=8192:1]  dtype=bool
+  Outputs:
+    [0] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b8_a16384_kv16383):
+  Inputs:
+    [0] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=524288    shape=[]|[0_1=8:16384, 1_1=16384:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=131072    shape=[Broadcast=1]|[0_1=8:16384, 2_1=16384:1]  dtype=bool
+  Outputs:
+    [0] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b8_a32768_kv32767):
+  Inputs:
+    [0] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=1048576   shape=[]|[0_1=8:32768, 1_1=32768:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=262144    shape=[Broadcast=1]|[0_1=8:32768, 2_1=32768:1]  dtype=bool
+  Outputs:
+    [0] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b8_a65536_kv65535):
+  Inputs:
+    [0] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=2097152   shape=[]|[0_1=8:65536, 1_1=65536:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=524288    shape=[Broadcast=1]|[0_1=8:65536, 2_1=65536:1]  dtype=bool
+  Outputs:
+    [0] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b16_a1024_kv1023):
+  Inputs:
+    [0] size=131072    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=65536     shape=[]|[0_1=16:1024, 1_1=1024:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=16384     shape=[Broadcast=1]|[0_1=16:1024, 2_1=1024:1]  dtype=bool
+  Outputs:
+    [0] size=131072    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b16_a2048_kv2047):
+  Inputs:
+    [0] size=131072    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=131072    shape=[]|[0_1=16:2048, 1_1=2048:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=32768     shape=[Broadcast=1]|[0_1=16:2048, 2_1=2048:1]  dtype=bool
+  Outputs:
+    [0] size=131072    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b16_a4096_kv4095):
+  Inputs:
+    [0] size=131072    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=262144    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=65536     shape=[Broadcast=1]|[0_1=16:4096, 2_1=4096:1]  dtype=bool
+  Outputs:
+    [0] size=131072    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b16_a8192_kv8191):
+  Inputs:
+    [0] size=131072    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=524288    shape=[]|[0_1=16:8192, 1_1=8192:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=131072    shape=[Broadcast=1]|[0_1=16:8192, 2_1=8192:1]  dtype=bool
+  Outputs:
+    [0] size=131072    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b16_a16384_kv16383):
+  Inputs:
+    [0] size=131072    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=1048576   shape=[]|[0_1=16:16384, 1_1=16384:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=262144    shape=[Broadcast=1]|[0_1=16:16384, 2_1=16384:1]  dtype=bool
+  Outputs:
+    [0] size=131072    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b16_a32768_kv32767):
+  Inputs:
+    [0] size=131072    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=2097152   shape=[]|[0_1=16:32768, 1_1=32768:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=524288    shape=[Broadcast=1]|[0_1=16:32768, 2_1=32768:1]  dtype=bool
+  Outputs:
+    [0] size=131072    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b32_a1024_kv1023):
+  Inputs:
+    [0] size=262144    shape=[]|[0_1=32:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=131072    shape=[]|[0_1=32:1024, 1_1=1024:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=32768     shape=[Broadcast=1]|[0_1=32:1024, 2_1=1024:1]  dtype=bool
+  Outputs:
+    [0] size=262144    shape=[]|[0_1=32:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b32_a2048_kv2047):
+  Inputs:
+    [0] size=262144    shape=[]|[0_1=32:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=262144    shape=[]|[0_1=32:2048, 1_1=2048:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=65536     shape=[Broadcast=1]|[0_1=32:2048, 2_1=2048:1]  dtype=bool
+  Outputs:
+    [0] size=262144    shape=[]|[0_1=32:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b32_a4096_kv4095):
+  Inputs:
+    [0] size=262144    shape=[]|[0_1=32:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=524288    shape=[]|[0_1=32:4096, 1_1=4096:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=131072    shape=[Broadcast=1]|[0_1=32:4096, 2_1=4096:1]  dtype=bool
+  Outputs:
+    [0] size=262144    shape=[]|[0_1=32:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b32_a8192_kv8191):
+  Inputs:
+    [0] size=262144    shape=[]|[0_1=32:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=1048576   shape=[]|[0_1=32:8192, 1_1=8192:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=262144    shape=[Broadcast=1]|[0_1=32:8192, 2_1=8192:1]  dtype=bool
+  Outputs:
+    [0] size=262144    shape=[]|[0_1=32:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b32_a16384_kv16383):
+  Inputs:
+    [0] size=262144    shape=[]|[0_1=32:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=2097152   shape=[]|[0_1=32:16384, 1_1=16384:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=524288    shape=[Broadcast=1]|[0_1=32:16384, 2_1=16384:1]  dtype=bool
+  Outputs:
+    [0] size=262144    shape=[]|[0_1=32:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b64_a1024_kv1023):
+  Inputs:
+    [0] size=524288    shape=[]|[0_1=64:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=262144    shape=[]|[0_1=64:1024, 1_1=1024:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=65536     shape=[Broadcast=1]|[0_1=64:1024, 2_1=1024:1]  dtype=bool
+  Outputs:
+    [0] size=524288    shape=[]|[0_1=64:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b64_a2048_kv2047):
+  Inputs:
+    [0] size=524288    shape=[]|[0_1=64:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=524288    shape=[]|[0_1=64:2048, 1_1=2048:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=131072    shape=[Broadcast=1]|[0_1=64:2048, 2_1=2048:1]  dtype=bool
+  Outputs:
+    [0] size=524288    shape=[]|[0_1=64:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b64_a4096_kv4095):
+  Inputs:
+    [0] size=524288    shape=[]|[0_1=64:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=1048576   shape=[]|[0_1=64:4096, 1_1=4096:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=262144    shape=[Broadcast=1]|[0_1=64:4096, 2_1=4096:1]  dtype=bool
+  Outputs:
+    [0] size=524288    shape=[]|[0_1=64:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b64_a8192_kv8191):
+  Inputs:
+    [0] size=524288    shape=[]|[0_1=64:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=2097152   shape=[]|[0_1=64:8192, 1_1=8192:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=524288    shape=[Broadcast=1]|[0_1=64:8192, 2_1=8192:1]  dtype=bool
+  Outputs:
+    [0] size=524288    shape=[]|[0_1=64:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b128_a1024_kv1023):
+  Inputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=524288    shape=[]|[0_1=128:1024, 1_1=1024:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=131072    shape=[Broadcast=1]|[0_1=128:1024, 2_1=1024:1]  dtype=bool
+  Outputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b128_a2048_kv2047):
+  Inputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=1048576   shape=[]|[0_1=128:2048, 1_1=2048:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=262144    shape=[Broadcast=1]|[0_1=128:2048, 2_1=2048:1]  dtype=bool
+  Outputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b128_a4096_kv4095):
+  Inputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=2097152   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=524288    shape=[Broadcast=1]|[0_1=128:4096, 2_1=4096:1]  dtype=bool
+  Outputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b256_a1024_kv1023):
+  Inputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=1048576   shape=[]|[0_1=256:1024, 1_1=1024:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=262144    shape=[Broadcast=1]|[0_1=256:1024, 2_1=1024:1]  dtype=bool
+  Outputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b256_a2048_kv2047):
+  Inputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=2097152   shape=[]|[0_1=256:2048, 1_1=2048:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=524288    shape=[Broadcast=1]|[0_1=256:2048, 2_1=2048:1]  dtype=bool
+  Outputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b512_a1024_kv1023):
+  Inputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=2097152   shape=[]|[0_1=512:1024, 1_1=1024:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=524288    shape=[Broadcast=1]|[0_1=512:1024, 2_1=1024:1]  dtype=bool
+  Outputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a256_kv128):
+  Inputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=1024      shape=[]|[0_1=1:256, 1_1=256:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=32768     shape=[Broadcast=1]|[1_1=128:256, 2_1=256:1]  dtype=bool
+  Outputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a512_kv384):
+  Inputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=2048      shape=[]|[0_1=1:512, 1_1=512:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=65536     shape=[Broadcast=1]|[1_1=128:512, 2_1=512:1]  dtype=bool
+  Outputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a512_kv256):
+  Inputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=2048      shape=[]|[0_1=1:512, 1_1=512:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=131072    shape=[Broadcast=1]|[1_1=256:512, 2_1=512:1]  dtype=bool
+  Outputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a1024_kv896):
+  Inputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=4096      shape=[]|[0_1=1:1024, 1_1=1024:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=131072    shape=[Broadcast=1]|[1_1=128:1024, 2_1=1024:1]  dtype=bool
+  Outputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a1024_kv768):
+  Inputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=4096      shape=[]|[0_1=1:1024, 1_1=1024:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=262144    shape=[Broadcast=1]|[1_1=256:1024, 2_1=1024:1]  dtype=bool
+  Outputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a1024_kv512):
+  Inputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=4096      shape=[]|[0_1=1:1024, 1_1=1024:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=524288    shape=[Broadcast=1]|[1_1=512:1024, 2_1=1024:1]  dtype=bool
+  Outputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a2048_kv1920):
+  Inputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=8192      shape=[]|[0_1=1:2048, 1_1=2048:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=262144    shape=[Broadcast=1]|[1_1=128:2048, 2_1=2048:1]  dtype=bool
+  Outputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a2048_kv1792):
+  Inputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=8192      shape=[]|[0_1=1:2048, 1_1=2048:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=524288    shape=[Broadcast=1]|[1_1=256:2048, 2_1=2048:1]  dtype=bool
+  Outputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a2048_kv1536):
+  Inputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=8192      shape=[]|[0_1=1:2048, 1_1=2048:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=1048576   shape=[Broadcast=1]|[1_1=512:2048, 2_1=2048:1]  dtype=bool
+  Outputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a2048_kv1024):
+  Inputs:
+    [0] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=8192      shape=[]|[0_1=1:2048, 1_1=2048:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=2097152   shape=[Broadcast=1]|[1_1=1024:2048, 2_1=2048:1]  dtype=bool
+  Outputs:
+    [0] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a4096_kv3968):
+  Inputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=16384     shape=[]|[0_1=1:4096, 1_1=4096:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=524288    shape=[Broadcast=1]|[1_1=128:4096, 2_1=4096:1]  dtype=bool
+  Outputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a4096_kv3840):
+  Inputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=16384     shape=[]|[0_1=1:4096, 1_1=4096:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=1048576   shape=[Broadcast=1]|[1_1=256:4096, 2_1=4096:1]  dtype=bool
+  Outputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a4096_kv3584):
+  Inputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=16384     shape=[]|[0_1=1:4096, 1_1=4096:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=2097152   shape=[Broadcast=1]|[1_1=512:4096, 2_1=4096:1]  dtype=bool
+  Outputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a4096_kv3072):
+  Inputs:
+    [0] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=16384     shape=[]|[0_1=1:4096, 1_1=4096:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=4194304   shape=[Broadcast=1]|[1_1=1024:4096, 2_1=4096:1]  dtype=bool
+  Outputs:
+    [0] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a8192_kv8064):
+  Inputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=32768     shape=[]|[0_1=1:8192, 1_1=8192:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=1048576   shape=[Broadcast=1]|[1_1=128:8192, 2_1=8192:1]  dtype=bool
+  Outputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a8192_kv7936):
+  Inputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=32768     shape=[]|[0_1=1:8192, 1_1=8192:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=2097152   shape=[Broadcast=1]|[1_1=256:8192, 2_1=8192:1]  dtype=bool
+  Outputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a8192_kv7680):
+  Inputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=32768     shape=[]|[0_1=1:8192, 1_1=8192:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=4194304   shape=[Broadcast=1]|[1_1=512:8192, 2_1=8192:1]  dtype=bool
+  Outputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a8192_kv7168):
+  Inputs:
+    [0] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=32768     shape=[]|[0_1=1:8192, 1_1=8192:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=8388608   shape=[Broadcast=1]|[1_1=1024:8192, 2_1=8192:1]  dtype=bool
+  Outputs:
+    [0] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a16384_kv16256):
+  Inputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=65536     shape=[]|[0_1=1:16384, 1_1=16384:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=2097152   shape=[Broadcast=1]|[1_1=128:16384, 2_1=16384:1]  dtype=bool
+  Outputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a16384_kv16128):
+  Inputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=65536     shape=[]|[0_1=1:16384, 1_1=16384:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=4194304   shape=[Broadcast=1]|[1_1=256:16384, 2_1=16384:1]  dtype=bool
+  Outputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a16384_kv15872):
+  Inputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=65536     shape=[]|[0_1=1:16384, 1_1=16384:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=8388608   shape=[Broadcast=1]|[1_1=512:16384, 2_1=16384:1]  dtype=bool
+  Outputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a16384_kv15360):
+  Inputs:
+    [0] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=65536     shape=[]|[0_1=1:16384, 1_1=16384:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=16777216  shape=[Broadcast=1]|[1_1=1024:16384, 2_1=16384:1]  dtype=bool
+  Outputs:
+    [0] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a32768_kv32640):
+  Inputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=131072    shape=[]|[0_1=1:32768, 1_1=32768:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=4194304   shape=[Broadcast=1]|[1_1=128:32768, 2_1=32768:1]  dtype=bool
+  Outputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a32768_kv32512):
+  Inputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=131072    shape=[]|[0_1=1:32768, 1_1=32768:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=8388608   shape=[Broadcast=1]|[1_1=256:32768, 2_1=32768:1]  dtype=bool
+  Outputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a32768_kv32256):
+  Inputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=131072    shape=[]|[0_1=1:32768, 1_1=32768:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=16777216  shape=[Broadcast=1]|[1_1=512:32768, 2_1=32768:1]  dtype=bool
+  Outputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a32768_kv31744):
+  Inputs:
+    [0] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=131072    shape=[]|[0_1=1:32768, 1_1=32768:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=33554432  shape=[Broadcast=1]|[1_1=1024:32768, 2_1=32768:1]  dtype=bool
+  Outputs:
+    [0] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a65536_kv65408):
+  Inputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=262144    shape=[]|[0_1=1:65536, 1_1=65536:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=8388608   shape=[Broadcast=1]|[1_1=128:65536, 2_1=65536:1]  dtype=bool
+  Outputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a65536_kv65280):
+  Inputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=262144    shape=[]|[0_1=1:65536, 1_1=65536:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=16777216  shape=[Broadcast=1]|[1_1=256:65536, 2_1=65536:1]  dtype=bool
+  Outputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a65536_kv65024):
+  Inputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=262144    shape=[]|[0_1=1:65536, 1_1=65536:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=33554432  shape=[Broadcast=1]|[1_1=512:65536, 2_1=65536:1]  dtype=bool
+  Outputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a65536_kv64512):
+  Inputs:
+    [0] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=262144    shape=[]|[0_1=1:65536, 1_1=65536:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=67108864  shape=[Broadcast=1]|[1_1=1024:65536, 2_1=65536:1]  dtype=bool
+  Outputs:
+    [0] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a131072_kv130944):
+  Inputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=524288    shape=[]|[0_1=1:131072, 1_1=131072:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=16777216  shape=[Broadcast=1]|[1_1=128:131072, 2_1=131072:1]  dtype=bool
+  Outputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a131072_kv130816):
+  Inputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=524288    shape=[]|[0_1=1:131072, 1_1=131072:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=33554432  shape=[Broadcast=1]|[1_1=256:131072, 2_1=131072:1]  dtype=bool
+  Outputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a131072_kv130560):
+  Inputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=524288    shape=[]|[0_1=1:131072, 1_1=131072:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=67108864  shape=[Broadcast=1]|[1_1=512:131072, 2_1=131072:1]  dtype=bool
+  Outputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+
+full_attention (b1_a131072_kv130048):
+  Inputs:
+    [0] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=524288    shape=[]|[0_1=1:131072, 1_1=131072:1]  dtype=raw_i32
+    [2] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [3] size=16777216  shape=[]|[0_1=8192:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [4] size=134217728  shape=[Broadcast=1]|[1_1=1024:131072, 2_1=131072:1]  dtype=bool
+  Outputs:
+    [0] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+
+last_tokenwise_with_lm_head (tw1):
+  Inputs:
+    [0] size=8192      shape=[]|[0_1=1:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=8192      shape=[]|[0_1=1:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [12] size=1056964608  shape=[Broadcast=1]|[0_1=129024:4096, 1_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=258048    shape=[Broadcast=1]|[1_1=129024:1]  dtype=bf16
+
+last_tokenwise_with_lm_head (tw2):
+  Inputs:
+    [0] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [12] size=1056964608  shape=[Broadcast=1]|[0_1=129024:4096, 1_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=516096    shape=[Broadcast=1]|[0_1=2:129024, 1_1=129024:1]  dtype=bf16
+
+last_tokenwise_with_lm_head (tw4):
+  Inputs:
+    [0] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [12] size=1056964608  shape=[Broadcast=1]|[0_1=129024:4096, 1_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=1032192   shape=[Broadcast=1]|[0_1=4:129024, 1_1=129024:1]  dtype=bf16
+
+last_tokenwise_with_lm_head (tw8):
+  Inputs:
+    [0] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [12] size=1056964608  shape=[Broadcast=1]|[0_1=129024:4096, 1_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=2064384   shape=[Broadcast=1]|[0_1=8:129024, 1_1=129024:1]  dtype=bf16
+
+last_tokenwise_with_lm_head (tw16):
+  Inputs:
+    [0] size=131072    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=131072    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [12] size=1056964608  shape=[Broadcast=1]|[0_1=129024:4096, 1_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=4128768   shape=[Broadcast=1]|[0_1=16:129024, 1_1=129024:1]  dtype=bf16
+
+last_tokenwise_with_lm_head (tw32):
+  Inputs:
+    [0] size=262144    shape=[]|[0_1=32:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=262144    shape=[]|[0_1=32:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [12] size=1056964608  shape=[Broadcast=1]|[0_1=129024:4096, 1_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=8257536   shape=[Broadcast=1]|[0_1=32:129024, 1_1=129024:1]  dtype=bf16
+
+last_tokenwise_with_lm_head (tw64):
+  Inputs:
+    [0] size=524288    shape=[]|[0_1=64:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=524288    shape=[]|[0_1=64:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [12] size=1056964608  shape=[Broadcast=1]|[0_1=129024:4096, 1_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=16515072  shape=[Broadcast=1]|[0_1=64:129024, 1_1=129024:1]  dtype=bf16
+
+last_tokenwise_with_lm_head (tw128):
+  Inputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [12] size=1056964608  shape=[Broadcast=1]|[0_1=129024:4096, 1_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=33030144  shape=[Broadcast=1]|[0_1=128:129024, 1_1=129024:1]  dtype=bf16
+
+last_tokenwise_with_lm_head (tw256):
+  Inputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [12] size=1056964608  shape=[Broadcast=1]|[0_1=129024:4096, 1_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=66060288  shape=[Broadcast=1]|[0_1=256:129024, 1_1=129024:1]  dtype=bf16
+
+last_tokenwise_with_lm_head (tw512):
+  Inputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [12] size=1056964608  shape=[Broadcast=1]|[0_1=129024:4096, 1_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=132120576  shape=[Broadcast=1]|[0_1=512:129024, 1_1=129024:1]  dtype=bf16
+
+last_tokenwise_with_lm_head (tw1024):
+  Inputs:
+    [0] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [12] size=1056964608  shape=[Broadcast=1]|[0_1=129024:4096, 1_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=264241152  shape=[Broadcast=1]|[0_1=1024:129024, 1_1=129024:1]  dtype=bf16
+
+mid_tokenwise (tw1):
+  Inputs:
+    [0] size=8192      shape=[]|[0_1=1:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=8192      shape=[]|[0_1=1:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [12] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [13] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [14] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [15] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [16] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [17] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [18] size=4         shape=[]|[0_1=1:1]  dtype=raw_i32
+    [19] size=4         shape=[]|[0_1=1:1, 1_1=1:1]  dtype=raw_i32
+    [20] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [21] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [22] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=8192      shape=[]|[0_1=1:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=8192      shape=[]|[0_1=1:4096, 1_1=4096:1]  dtype=bf16
+
+mid_tokenwise (tw2):
+  Inputs:
+    [0] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [12] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [13] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [14] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [15] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [16] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [17] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [18] size=8         shape=[]|[0_1=2:1]  dtype=raw_i32
+    [19] size=8         shape=[]|[0_1=1:2, 1_1=2:1]  dtype=raw_i32
+    [20] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [21] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [22] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=16384     shape=[]|[0_1=2:4096, 1_1=4096:1]  dtype=bf16
+
+mid_tokenwise (tw8):
+  Inputs:
+    [0] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [12] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [13] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [14] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [15] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [16] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [17] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [18] size=32        shape=[]|[0_1=8:1]  dtype=raw_i32
+    [19] size=32        shape=[]|[0_1=1:8, 1_1=8:1]  dtype=raw_i32
+    [20] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [21] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [22] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=65536     shape=[]|[0_1=8:4096, 1_1=4096:1]  dtype=bf16
+
+mid_tokenwise (tw4):
+  Inputs:
+    [0] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [12] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [13] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [14] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [15] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [16] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [17] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [18] size=16        shape=[]|[0_1=4:1]  dtype=raw_i32
+    [19] size=16        shape=[]|[0_1=1:4, 1_1=4:1]  dtype=raw_i32
+    [20] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [21] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [22] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=32768     shape=[]|[0_1=4:4096, 1_1=4096:1]  dtype=bf16
+
+mid_tokenwise (tw16):
+  Inputs:
+    [0] size=131072    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=131072    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [12] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [13] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [14] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [15] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [16] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [17] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [18] size=64        shape=[]|[0_1=16:1]  dtype=raw_i32
+    [19] size=64        shape=[]|[0_1=1:16, 1_1=16:1]  dtype=raw_i32
+    [20] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [21] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [22] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=131072    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=131072    shape=[]|[0_1=16:4096, 1_1=4096:1]  dtype=bf16
+
+mid_tokenwise (tw32):
+  Inputs:
+    [0] size=262144    shape=[]|[0_1=32:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=262144    shape=[]|[0_1=32:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [12] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [13] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [14] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [15] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [16] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [17] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [18] size=128       shape=[]|[0_1=32:1]  dtype=raw_i32
+    [19] size=128       shape=[]|[0_1=1:32, 1_1=32:1]  dtype=raw_i32
+    [20] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [21] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [22] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=262144    shape=[]|[0_1=32:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=262144    shape=[]|[0_1=32:4096, 1_1=4096:1]  dtype=bf16
+
+mid_tokenwise (tw512):
+  Inputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [12] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [13] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [14] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [15] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [16] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [17] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [18] size=2048      shape=[]|[0_1=512:1]  dtype=raw_i32
+    [19] size=2048      shape=[]|[0_1=1:512, 1_1=512:1]  dtype=raw_i32
+    [20] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [21] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [22] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=4194304   shape=[]|[0_1=512:4096, 1_1=4096:1]  dtype=bf16
+
+mid_tokenwise (tw64):
+  Inputs:
+    [0] size=524288    shape=[]|[0_1=64:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=524288    shape=[]|[0_1=64:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [12] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [13] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [14] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [15] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [16] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [17] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [18] size=256       shape=[]|[0_1=64:1]  dtype=raw_i32
+    [19] size=256       shape=[]|[0_1=1:64, 1_1=64:1]  dtype=raw_i32
+    [20] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [21] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [22] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=524288    shape=[]|[0_1=64:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=524288    shape=[]|[0_1=64:4096, 1_1=4096:1]  dtype=bf16
+
+mid_tokenwise (tw128):
+  Inputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [12] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [13] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [14] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [15] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [16] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [17] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [18] size=512       shape=[]|[0_1=128:1]  dtype=raw_i32
+    [19] size=512       shape=[]|[0_1=1:128, 1_1=128:1]  dtype=raw_i32
+    [20] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [21] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [22] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=1048576   shape=[]|[0_1=128:4096, 1_1=4096:1]  dtype=bf16
+
+mid_tokenwise (tw1024):
+  Inputs:
+    [0] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [12] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [13] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [14] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [15] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [16] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [17] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [18] size=4096      shape=[]|[0_1=1024:1]  dtype=raw_i32
+    [19] size=4096      shape=[]|[0_1=1:1024, 1_1=1024:1]  dtype=raw_i32
+    [20] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [21] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [22] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=8388608   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=bf16
+
+mid_tokenwise (tw256):
+  Inputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+    [2] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [3] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [4] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [5] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [6] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [7] size=58720256  shape=[]|[0_1=14336:4096, 1_1=4096:1]  dtype=f8_e4
+    [8] size=28672     shape=[]|[0_1=14336:1]  dtype=bf16
+    [9] size=58720256  shape=[]|[0_1=4096:14336, 1_1=14336:1]  dtype=f8_e4
+    [10] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [11] size=16777216  shape=[]|[0_1=4096:4096, 1_1=4096:1]  dtype=f8_e4
+    [12] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+    [13] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [14] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [15] size=4194304   shape=[]|[0_1=1024:4096, 1_1=4096:1]  dtype=f8_e4
+    [16] size=2048      shape=[]|[0_1=1024:1]  dtype=bf16
+    [17] size=67108864  shape=[]|[0_1=131072:256, 1_1=64:4, 2_1=2:2, 3_1=2:1]  dtype=bf16
+    [18] size=1024      shape=[]|[0_1=256:1]  dtype=raw_i32
+    [19] size=1024      shape=[]|[0_1=1:256, 1_1=256:1]  dtype=raw_i32
+    [20] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [21] size=16777216  shape=[]|[0_1=8192:1024, 1_1=1:1024, 2_1=8:128, 3_1=128:1]  dtype=bf16
+    [22] size=8192      shape=[]|[0_1=4096:1]  dtype=bf16
+  Outputs:
+    [0] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+    [1] size=2097152   shape=[]|[0_1=256:4096, 1_1=4096:1]  dtype=bf16
+
+random_sample (sampler1):
+  Inputs:
+    [0] size=264241152  shape=[Broadcast=1]|[0_1=1024:129024, 1_1=129024:1]  dtype=bf16
+    [1] size=4         shape=[]|[0_1=1:1]  dtype=raw_i32
+    [2] size=4         shape=[]|[0_1=1:1]  dtype=f32
+    [3] size=258048    shape=[]|[1_1=129024:1]  dtype=bf16
+    [4] size=129024    shape=[]|[1_1=129024:1]  dtype=bool
+    [5] size=4         shape=[]|[0_1=1:1]  dtype=raw_i32
+    [6] size=4         shape=[]|[0_1=1:1]  dtype=f32
+    [7] size=4         shape=[]|[0_1=1:1]  dtype=raw_i32
+    [8] size=4         shape=[]|[0_1=1:1]  dtype=f32
+    [9] size=4         shape=[]|[0_1=1:1]  dtype=f32
+  Outputs:
+    [0] size=4         shape=[]|[]  dtype=raw_i32
+    [1] size=516096    shape=[]|[1_1=129024:1]  dtype=f32
+
+random_sample (sampler2):
+  Inputs:
+    [0] size=264241152  shape=[Broadcast=1]|[0_1=1024:129024, 1_1=129024:1]  dtype=bf16
+    [1] size=8         shape=[]|[0_1=2:1]  dtype=raw_i32
+    [2] size=8         shape=[]|[0_1=2:1]  dtype=f32
+    [3] size=516096    shape=[]|[0_1=2:129024, 1_1=129024:1]  dtype=bf16
+    [4] size=258048    shape=[]|[0_1=2:129024, 1_1=129024:1]  dtype=bool
+    [5] size=8         shape=[]|[0_1=2:1]  dtype=raw_i32
+    [6] size=8         shape=[]|[0_1=2:1]  dtype=f32
+    [7] size=8         shape=[]|[0_1=2:1]  dtype=raw_i32
+    [8] size=8         shape=[]|[0_1=2:1]  dtype=f32
+    [9] size=8         shape=[]|[0_1=2:1]  dtype=f32
+  Outputs:
+    [0] size=8         shape=[]|[0_1=2:1]  dtype=raw_i32
+    [1] size=1032192   shape=[]|[0_1=2:129024, 1_1=129024:1]  dtype=f32
+
+random_sample (sampler4):
+  Inputs:
+    [0] size=264241152  shape=[Broadcast=1]|[0_1=1024:129024, 1_1=129024:1]  dtype=bf16
+    [1] size=16        shape=[]|[0_1=4:1]  dtype=raw_i32
+    [2] size=16        shape=[]|[0_1=4:1]  dtype=f32
+    [3] size=1032192   shape=[]|[0_1=4:129024, 1_1=129024:1]  dtype=bf16
+    [4] size=516096    shape=[]|[0_1=4:129024, 1_1=129024:1]  dtype=bool
+    [5] size=16        shape=[]|[0_1=4:1]  dtype=raw_i32
+    [6] size=16        shape=[]|[0_1=4:1]  dtype=f32
+    [7] size=16        shape=[]|[0_1=4:1]  dtype=raw_i32
+    [8] size=16        shape=[]|[0_1=4:1]  dtype=f32
+    [9] size=16        shape=[]|[0_1=4:1]  dtype=f32
+  Outputs:
+    [0] size=16        shape=[]|[0_1=4:1]  dtype=raw_i32
+    [1] size=2064384   shape=[]|[0_1=4:129024, 1_1=129024:1]  dtype=f32
+
+random_sample (sampler8):
+  Inputs:
+    [0] size=264241152  shape=[Broadcast=1]|[0_1=1024:129024, 1_1=129024:1]  dtype=bf16
+    [1] size=32        shape=[]|[0_1=8:1]  dtype=raw_i32
+    [2] size=32        shape=[]|[0_1=8:1]  dtype=f32
+    [3] size=2064384   shape=[]|[0_1=8:129024, 1_1=129024:1]  dtype=bf16
+    [4] size=1032192   shape=[]|[0_1=8:129024, 1_1=129024:1]  dtype=bool
+    [5] size=32        shape=[]|[0_1=8:1]  dtype=raw_i32
+    [6] size=32        shape=[]|[0_1=8:1]  dtype=f32
+    [7] size=32        shape=[]|[0_1=8:1]  dtype=raw_i32
+    [8] size=32        shape=[]|[0_1=8:1]  dtype=f32
+    [9] size=32        shape=[]|[0_1=8:1]  dtype=f32
+  Outputs:
+    [0] size=32        shape=[]|[0_1=8:1]  dtype=raw_i32
+    [1] size=4128768   shape=[]|[0_1=8:129024, 1_1=129024:1]  dtype=f32
+
+random_sample (sampler16):
+  Inputs:
+    [0] size=264241152  shape=[Broadcast=1]|[0_1=1024:129024, 1_1=129024:1]  dtype=bf16
+    [1] size=64        shape=[]|[0_1=16:1]  dtype=raw_i32
+    [2] size=64        shape=[]|[0_1=16:1]  dtype=f32
+    [3] size=4128768   shape=[]|[0_1=16:129024, 1_1=129024:1]  dtype=bf16
+    [4] size=2064384   shape=[]|[0_1=16:129024, 1_1=129024:1]  dtype=bool
+    [5] size=64        shape=[]|[0_1=16:1]  dtype=raw_i32
+    [6] size=64        shape=[]|[0_1=16:1]  dtype=f32
+    [7] size=64        shape=[]|[0_1=16:1]  dtype=raw_i32
+    [8] size=64        shape=[]|[0_1=16:1]  dtype=f32
+    [9] size=64        shape=[]|[0_1=16:1]  dtype=f32
+  Outputs:
+    [0] size=64        shape=[]|[0_1=16:1]  dtype=raw_i32
+    [1] size=8257536   shape=[]|[0_1=16:129024, 1_1=129024:1]  dtype=f32
+
+random_sample (sampler32):
+  Inputs:
+    [0] size=264241152  shape=[Broadcast=1]|[0_1=1024:129024, 1_1=129024:1]  dtype=bf16
+    [1] size=128       shape=[]|[0_1=32:1]  dtype=raw_i32
+    [2] size=128       shape=[]|[0_1=32:1]  dtype=f32
+    [3] size=8257536   shape=[]|[0_1=32:129024, 1_1=129024:1]  dtype=bf16
+    [4] size=4128768   shape=[]|[0_1=32:129024, 1_1=129024:1]  dtype=bool
+    [5] size=128       shape=[]|[0_1=32:1]  dtype=raw_i32
+    [6] size=128       shape=[]|[0_1=32:1]  dtype=f32
+    [7] size=128       shape=[]|[0_1=32:1]  dtype=raw_i32
+    [8] size=128       shape=[]|[0_1=32:1]  dtype=f32
+    [9] size=128       shape=[]|[0_1=32:1]  dtype=f32
+  Outputs:
+    [0] size=128       shape=[]|[0_1=32:1]  dtype=raw_i32
+    [1] size=16515072  shape=[]|[0_1=32:129024, 1_1=129024:1]  dtype=f32
+
+random_sample (sampler64):
+  Inputs:
+    [0] size=264241152  shape=[Broadcast=1]|[0_1=1024:129024, 1_1=129024:1]  dtype=bf16
+    [1] size=256       shape=[]|[0_1=64:1]  dtype=raw_i32
+    [2] size=256       shape=[]|[0_1=64:1]  dtype=f32
+    [3] size=16515072  shape=[]|[0_1=64:129024, 1_1=129024:1]  dtype=bf16
+    [4] size=8257536   shape=[]|[0_1=64:129024, 1_1=129024:1]  dtype=bool
+    [5] size=256       shape=[]|[0_1=64:1]  dtype=raw_i32
+    [6] size=256       shape=[]|[0_1=64:1]  dtype=f32
+    [7] size=256       shape=[]|[0_1=64:1]  dtype=raw_i32
+    [8] size=256       shape=[]|[0_1=64:1]  dtype=f32
+    [9] size=256       shape=[]|[0_1=64:1]  dtype=f32
+  Outputs:
+    [0] size=256       shape=[]|[0_1=64:1]  dtype=raw_i32
+    [1] size=33030144  shape=[]|[0_1=64:129024, 1_1=129024:1]  dtype=f32
+
+random_sample (sampler128):
+  Inputs:
+    [0] size=264241152  shape=[Broadcast=1]|[0_1=1024:129024, 1_1=129024:1]  dtype=bf16
+    [1] size=512       shape=[]|[0_1=128:1]  dtype=raw_i32
+    [2] size=512       shape=[]|[0_1=128:1]  dtype=f32
+    [3] size=33030144  shape=[]|[0_1=128:129024, 1_1=129024:1]  dtype=bf16
+    [4] size=16515072  shape=[]|[0_1=128:129024, 1_1=129024:1]  dtype=bool
+    [5] size=512       shape=[]|[0_1=128:1]  dtype=raw_i32
+    [6] size=512       shape=[]|[0_1=128:1]  dtype=f32
+    [7] size=512       shape=[]|[0_1=128:1]  dtype=raw_i32
+    [8] size=512       shape=[]|[0_1=128:1]  dtype=f32
+    [9] size=512       shape=[]|[0_1=128:1]  dtype=f32
+  Outputs:
+    [0] size=512       shape=[]|[0_1=128:1]  dtype=raw_i32
+    [1] size=66060288  shape=[]|[0_1=128:129024, 1_1=129024:1]  dtype=f32
+
+random_sample (sampler256):
+  Inputs:
+    [0] size=264241152  shape=[Broadcast=1]|[0_1=1024:129024, 1_1=129024:1]  dtype=bf16
+    [1] size=1024      shape=[]|[0_1=256:1]  dtype=raw_i32
+    [2] size=1024      shape=[]|[0_1=256:1]  dtype=f32
+    [3] size=66060288  shape=[]|[0_1=256:129024, 1_1=129024:1]  dtype=bf16
+    [4] size=33030144  shape=[]|[0_1=256:129024, 1_1=129024:1]  dtype=bool
+    [5] size=1024      shape=[]|[0_1=256:1]  dtype=raw_i32
+    [6] size=1024      shape=[]|[0_1=256:1]  dtype=f32
+    [7] size=1024      shape=[]|[0_1=256:1]  dtype=raw_i32
+    [8] size=1024      shape=[]|[0_1=256:1]  dtype=f32
+    [9] size=1024      shape=[]|[0_1=256:1]  dtype=f32
+  Outputs:
+    [0] size=1024      shape=[]|[0_1=256:1]  dtype=raw_i32
+    [1] size=132120576  shape=[]|[0_1=256:129024, 1_1=129024:1]  dtype=f32
+
+random_sample (sampler512):
+  Inputs:
+    [0] size=264241152  shape=[Broadcast=1]|[0_1=1024:129024, 1_1=129024:1]  dtype=bf16
+    [1] size=2048      shape=[]|[0_1=512:1]  dtype=raw_i32
+    [2] size=2048      shape=[]|[0_1=512:1]  dtype=f32
+    [3] size=132120576  shape=[]|[0_1=512:129024, 1_1=129024:1]  dtype=bf16
+    [4] size=66060288  shape=[]|[0_1=512:129024, 1_1=129024:1]  dtype=bool
+    [5] size=2048      shape=[]|[0_1=512:1]  dtype=raw_i32
+    [6] size=2048      shape=[]|[0_1=512:1]  dtype=f32
+    [7] size=2048      shape=[]|[0_1=512:1]  dtype=raw_i32
+    [8] size=2048      shape=[]|[0_1=512:1]  dtype=f32
+    [9] size=2048      shape=[]|[0_1=512:1]  dtype=f32
+  Outputs:
+    [0] size=2048      shape=[]|[0_1=512:1]  dtype=raw_i32
+    [1] size=264241152  shape=[]|[0_1=512:129024, 1_1=129024:1]  dtype=f32
+
+random_sample (sampler1024):
+  Inputs:
+    [0] size=264241152  shape=[Broadcast=1]|[0_1=1024:129024, 1_1=129024:1]  dtype=bf16
+    [1] size=4096      shape=[]|[0_1=1024:1]  dtype=raw_i32
+    [2] size=4096      shape=[]|[0_1=1024:1]  dtype=f32
+    [3] size=264241152  shape=[]|[0_1=1024:129024, 1_1=129024:1]  dtype=bf16
+    [4] size=132120576  shape=[]|[0_1=1024:129024, 1_1=129024:1]  dtype=bool
+    [5] size=4096      shape=[]|[0_1=1024:1]  dtype=raw_i32
+    [6] size=4096      shape=[]|[0_1=1024:1]  dtype=f32
+    [7] size=4096      shape=[]|[0_1=1024:1]  dtype=raw_i32
+    [8] size=4096      shape=[]|[0_1=1024:1]  dtype=f32
+    [9] size=4096      shape=[]|[0_1=1024:1]  dtype=f32
+  Outputs:
+    [0] size=4096      shape=[]|[0_1=1024:1]  dtype=raw_i32
+    [1] size=528482304  shape=[]|[0_1=1024:129024, 1_1=129024:1]  dtype=f32
+

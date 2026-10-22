@@ -1,0 +1,4 @@
+﻿condition,temperature,top_p,prompt,answer
+기준,0.0,1.0,RNGD NPU가 LLM 추론에 쓰이는 이유를 설명해줘.,"**RNGD NPU**는 **RNGD (Rapid Neural Graph Device)**라는 이름의 **특정 NPU (Neural Processing Unit)** 장치로, **LLM (Large Language Model) 추론에 사용되는 이유**는 다음과 같은 핵심 기술적 및 실용적 요인에서 비롯됩니다:"
+프롬프트 변경,0.0,1.0,초보자를 위해 RNGD NPU의 역할을 두 문장으로 설명해줘.,"RNGD NPU는 AI 모델을 빠르고 효율적으로 실행하기 위해 설계된 특화된 프로세서로, 주로 이미지, 음성, 텍스트 등 다양한 데이터를 처리합니다. 초보자에게는 ‘AI의 뇌’처럼 작동하는 장치로,"
+샘플링 변경,0.8,0.9,RNGD NPU가 LLM 추론에 쓰이는 이유를 설명해줘.,"“RNGD NPU”라는 용어는 **정확히 명확한 공식적 또는 산업 표준 용어**로는 널리 알려지지 않았습니다. 따라서 이 질문은 **의미를 해석하고, 맥락을 추정**해야 합니다. 아래에 가능한 해석과 그"
